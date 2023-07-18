@@ -38,6 +38,8 @@ O script foi projetado para lidar com a estrutura específica dos boletins Prici
 
 Os dados extraídos são salvos como uma lista de dicionários, onde cada dicionário representa uma única entrada de dados no boletim. As chaves do dicionário são as tags XML do boletim, e os valores são os dados associados a essas tags.
 
+Ao fim, a lista de dicionários é convertida para um DataFrame Pandas armazenado na variável `df_total`.
+
 ## Nota
 
 Este script foi desenvolvido para lidar com um formato de arquivo específico e pode não funcionar corretamente se o formato dos boletins Pricing Reports da B3 for alterado. Certifique-se de verificar regularmente se o script ainda está funcionando conforme o esperado e não hesite em modificar o código para atender às suas necessidades específicas.
